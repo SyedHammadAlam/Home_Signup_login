@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         const password = document.querySelector('#Password input').value;
         const reEnterPassword = document.querySelectorAll('#Password input')[1].value;
         const phoneNumber = document.querySelector('#PhoneNumber input').value;
-        if (email === '' || password === '' || reEnterPasshword === '' || phoneNumber === '') {
+        if (email === '' || password === '' || reEnterPassword === '' || phoneNumber === '') {
             alert("Please fill in all fields");
             return;
         }
